@@ -16,7 +16,6 @@ body {
 }
 
 
-
 .layer {
     flex: 1;
     display: flex;
@@ -28,6 +27,13 @@ body {
 
 }
 
+.layer--one {
+    justify-content: end;
+}
+
+.header-text {
+    margin: 0px 0px 20px 0px;
+}
 
 .card {
     display: flex;
