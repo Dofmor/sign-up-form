@@ -22,7 +22,13 @@ body {
 
 .second-layer {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px 10px 20px;
     background-color: aqua;
+    font-size: 14px;
+
 }
 
 .third-layer {
@@ -35,8 +41,17 @@ p {
 
 .card {
     display: flex;
+    gap: 2rem;
 }
 
 label {
     display: block;
+}
+
+form {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin-bottom: auto; */
 }
