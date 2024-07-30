@@ -1,0 +1,42 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.left-side {
+    flex: 0 2 400px;
+    background-image: url('./images/lofi-girl.jpg');
+    background-size: cover;
+}
+.right-side {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-layer {
+    flex: 1;
+    background-color: red;
+}
+
+.second-layer {
+    flex: 1;
+    background-color: aqua;
+}
+
+.third-layer {
+    flex: 1;
+    background-color: yellow;
+}
+p {
+    color: #fff;
+}
+
+.card {
+    display: flex;
+}
+
+label {
+    display: block;
+}
